@@ -14,7 +14,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/43-grupe-portfolio/
+Site published at: https://front-end-by-rimantas.github.io/43-grupe-portfolio-neuron/
 
 Design: Neuron
 
@@ -73,6 +73,10 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+Darius: [Github](https://github.com/DuserK)
+Jurgita: [Github](https://github.com/Jurgita011)
+Saulius: [Github](https://github.com/sauliusinfo)
+Gabriele [Github](https://github.com/janusonyte)
 
 ## ⚠️ License
 
