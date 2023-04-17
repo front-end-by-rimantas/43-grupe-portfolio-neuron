@@ -76,7 +76,7 @@ Rimantas: [Github](https://github.com/belauzas)\
 Darius: [Github](https://github.com/DuserK)\
 Jurgita: [Github](https://github.com/Jurgita011)\
 Saulius: [Github](https://github.com/sauliusinfo)\
-Gabriele [Github](https://github.com/janusonyte)\
+Gabriele [Github](https://github.com/janusonyte)
 
 ## ⚠️ License
 
