@@ -1,0 +1,11 @@
+/* Css elementu importavimas kurie pritaikomi home page */
+@import url(../css/3rd_party/font_awesome/css/all.min.css);
+@import url(../css/base/base_layout.css);
+@import url(../css/base/home_mobile.css);
+@import url(../css/components/chat_bot.css);
+@import url(../css/components/colour_gradient.css);
+@import url(../css/components/default_buttons.css);
+@import url(../css/fonts/home_fonts.css);
+
+
+/* Custom from here*/
