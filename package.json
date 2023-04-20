@@ -16,31 +16,26 @@
     ],
     "author": "Rimantas (https://github.com/belauzas)",
     "contributors": [
-         
         {
-            "name" : "Edvin",
-            "url" : "https://github.com/EdvinGV"
-        },  
-        {
-            "name" : "Saulius",
-            "url" : "https://github.com/sauliusinfo"
+            "name": "Edvin",
+            "url": "https://github.com/EdvinGV"
         },
-         
         {
-            "name" : "Darius",
-            "url" : "https://github.com/DuserK"
+            "name": "Saulius",
+            "url": "https://github.com/sauliusinfo"
         },
-         
         {
-            "name" : "Jurgita",
-            "url" : "https://github.com/Jurgita011"
+            "name": "Darius",
+            "url": "https://github.com/DuserK"
         },
-          
         {
-            "name" : "Gabriele",
-            "url" : "https://github.com/janusonyte"
+            "name": "Jurgita",
+            "url": "https://github.com/Jurgita011"
+        },
+        {
+            "name": "Gabriele",
+            "url": "https://github.com/janusonyte"
         }
-
     ],
     "license": "MIT",
     "devDependencies": {
