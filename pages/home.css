@@ -6,6 +6,48 @@
 @import url(../css/components/colour_gradient.css);
 @import url(../css/components/default_buttons.css);
 @import url(../css/fonts/home_fonts.css);
+@import url(../css/base/base.css);
 
 
-/* Custom from here*/
+
+
+
+.newsletter{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.inbox_logo{
+    font-size: 235px;
+    margin: 0;
+}
+.inbox{
+   width: 30%;
+}
+.newsletter_form{
+    font-size: 30px;
+    width: 70%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    
+    
+}
+.email_form{
+    display: flex;
+    margin-top: 20px;
+}
+.inbox_input{
+    min-width: 700px;
+        min-height: 40px;
+}
+.bgr{
+color: linear-gradient(0deg, #09c778, #01a0f9);
+}
