@@ -7,10 +7,45 @@
 @import url(../css/components/default_buttons.css);
 @import url(../css/fonts/home_fonts.css);
 @import url(../css/base/base.css);
+@import url(../css/base/footer.css);
 
 
 
+/* Custom from here*/
 
+
+
+/* Header styles: start */
+/* Header styles: end */
+
+/* Hero styles: start */
+/* Hero styles: end */
+
+/* Power Your Creativity: start */
+/* Power Your Creativity: end */
+
+/* We Create The Most Realistic Artificial Intelligence: start */
+/* We Create The Most Realistic Artificial Intelligence: end */
+
+/* Statistics: start */
+/* Statistics: end */
+
+/* Our Core Services: start */
+/* Our Core Services: end */
+
+/* Our Latest Project: start */
+/* Our Latest Project: end */
+
+/* Newsletter: start */
+/* Newsletter: end */
+
+/* How We Works: start */
+/* How We Works: end */
+
+/* Recent Blog Post: start */
+/* Recent Blog Post: end */
+
+/* Contact With Us: start */
 
 .newsletter{
     
@@ -36,9 +71,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    
-    
-    
 }
 .email_form{
     display: flex;
@@ -51,3 +83,5 @@
 .bgr{
 color: linear-gradient(0deg, #09c778, #01a0f9);
 }
+
+/* Contact With Us: end */
