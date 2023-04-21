@@ -2,7 +2,6 @@
 
 :root {
     --width: 100%;
-
     --half-gap: 10px;
     --gap: calc(var(--half-gap) * 2);
     --c1: calc(100% / 12 - var(--gap));

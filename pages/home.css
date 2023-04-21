@@ -37,16 +37,6 @@
 /* Our Latest Project: end */
 
 /* Newsletter: start */
-/* Newsletter: end */
-
-/* How We Works: start */
-/* How We Works: end */
-
-/* Recent Blog Post: start */
-/* Recent Blog Post: end */
-
-/* Contact With Us: start */
-
 .newsletter{
     
     display: flex;
@@ -83,5 +73,49 @@
 .bgr{
 color: linear-gradient(0deg, #09c778, #01a0f9);
 }
+/* Newsletter: end */
 
+/* How We Works: start */
+/* How We Works: end */
+
+/* Recent Blog Post: start */
+/* Recent Blog Post: end */
+
+/* Contact With Us: start */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+}
+.form label {
+    display: none;
+}
+.form > .input,
+.form > .textarea {
+    width: 100%;
+    padding: 0.5em 0.1em;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.form > .input {
+    width: calc(50% - 15px);
+}
+.form > .textarea {
+    resize: vertical;
+    min-height: 100px;
+    height: 150px;
+    max-height: 400px;
+}
+.form ::placeholder {
+    color: #777;
+    font-style: italic;
+    font-size: 0.9em;
+}
+button {
+    width: 100%;
+    padding: 15px;
+}
 /* Contact With Us: end */
