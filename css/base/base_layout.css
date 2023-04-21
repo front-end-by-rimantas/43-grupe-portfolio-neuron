@@ -1,6 +1,13 @@
-
-
 :root {
+    --color-grad-180:linear-gradient(180deg, #09c778, #01a0f9);
+    --color-grad-41:linear-gradient(-41deg, #09c778, #01a0f9);
+    --color-grad-90:linear-gradient(90deg, #09c778, #01a0f9);
+    --color-grad-270:linear-gradient(270deg, #09c778, #01a0f9);
+    --grey: #666;
+    --grey-dark: #333;
+    --grey-bgr: #EFF1F7;
+    --blue: #01a0f9;
+
     --width: 100%;
     --half-gap: 10px;
     --gap: calc(var(--half-gap) * 2);
@@ -31,7 +38,85 @@
     --ml10: calc(var(--ml9) + var(--inc));
     --ml11: calc(var(--ml10) + var(--inc));
 }
+.bgr-grad-left {
+    background:var(--color-grad-270);
+}
+.bgr-grad-right {
+    background:var(--color-grad-90);
+}
+.bgr-grad-angle {
+    background:var(--color-grad-41);
+}
+.bgr-gray {
+    background:var(--grey-bgr);
+    z-index: -2;
+}
 
+.center {
+    text-align: center;
+}
+.title {
+    text-transform: capitalize;
+    color: var(--grey-dark);
+    font-size: 30px;
+    z-index: 0;
+    line-height: 1.3em;
+    margin: 100px 0 26px;
+    position: relative;
+}
+
+.title::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: calc(1em - 10px);
+    width: 150px;
+    height: 10px;
+    background: var(--color-grad-270);
+}
+
+.center .title::after{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body h3 {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 0 0 0 15px;
+}
+.footer-title{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    z-index: 0;
+    position: relative;
+    line-height: 1.3em;
+    margin: 0 0 40px 0;
+}
+.footer-title::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: calc(1em - 5px);
+    width: 70px;
+    height: 5px;
+    background: var(--color-grad-270);
+}
+p {
+    color: var(--grey);
+    font-size: 15px;
+    line-height: 1.3em;
+}
+p + p {
+    margin: 26px 0 0 0; 
+}
 .hidden {
     display: none !important;
 }
@@ -55,7 +140,7 @@
     width: var(--width);
     margin: 20px calc((100% - var(--width)) / 2);
     float: left;
-    background-color: pink;
+   /* background-color: pink; */
 }
 .container-fluid > .row {
     width: 100%;
@@ -66,7 +151,7 @@
 .row > [class*='col-'] {
     float: left;
     margin: var(--half-gap);
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .row > .col-1 {
     width: var(--c1);
