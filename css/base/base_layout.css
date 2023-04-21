@@ -47,6 +47,9 @@
 .bgr-grad-angle {
     background:var(--color-grad-41);
 }
+.bgr-grad-top {
+    background:var(--color-grad-180);
+}
 .bgr-gray {
     background:var(--grey-bgr);
     z-index: -2;
