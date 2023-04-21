@@ -37,16 +37,6 @@
 /* Our Latest Project: end */
 
 /* Newsletter: start */
-/* Newsletter: end */
-
-/* How We Works: start */
-/* How We Works: end */
-
-/* Recent Blog Post: start */
-/* Recent Blog Post: end */
-
-/* Contact With Us: start */
-
 .newsletter{
     
     display: flex;
@@ -83,5 +73,13 @@
 .bgr{
 color: linear-gradient(0deg, #09c778, #01a0f9);
 }
+/* Newsletter: end */
 
+/* How We Works: start */
+/* How We Works: end */
+
+/* Recent Blog Post: start */
+/* Recent Blog Post: end */
+
+/* Contact With Us: start */
 /* Contact With Us: end */
