@@ -29,6 +29,27 @@
 /* We Create The Most Realistic Artificial Intelligence: end */
 
 /* Statistics: start */
+
+.counter-text {
+position: absolute;
+width: 100%;
+top :40%;
+left: 50%;
+transform:translate(-50%,40%) ;
+text-align: center;
+
+}
+.count-text-number {
+   font-weight: 600; 
+   font-size: 30px;
+}
+.count-text-number::after{
+    content: '+';
+}
+.count-text-title{
+    font-size: 16px;
+
+}
 /* Statistics: end */
 
 /* Our Core Services: start */
