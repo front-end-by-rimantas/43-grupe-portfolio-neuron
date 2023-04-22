@@ -65,8 +65,10 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, modi?
                     </p>
-                    <button style="text-transform: uppercase;">Learn more</button>
-                    <button style="text-transform: uppercase;">Join now</button>
+                    <div class="btn-container">
+                        <a class="btn btn-white">Learn more</a>
+                        <a class="btn btn-transparent">Join now</a>
+                    </div>
                 </div>
 
                 <div class="col-3">
@@ -149,9 +151,9 @@
                         inventore
                         possimus laboriosam qui nam. Fugit!
                     </p>
-
-                    <button style="text-transform: uppercase;">Learn more</button>
-
+                    <div class="btn-container">
+                        <a class="btn btn-gradient">Learn more</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -172,8 +174,8 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius molesti ae facere, natus reprehenderit eaque eum, autem ipsam. Magni, error. Tem pora odit laborum iure inventore possimus laboriosam qui nam. Fugit!
                     </p>
-                    <button style="text-transform: uppercase;">Learn more</button>
-                    <button style="text-transform: uppercase;"></button>
+                    <a class="btn btn-gradient">Learn more</a>
+                    <button class="btn btn-play"> <i class="fa-solid fa-play"></i></button>
                 </div>
 
                 <div class="col-6">
@@ -341,7 +343,7 @@
                         <h2 class="title">Don't Miss Our News!</h2>
                         <div class="email_form">
                             <input class="inbox_input" type="Enter Your Email">
-                            <a href="">Button</a>
+                            <a class="btn-send"><i class="send fa-solid fa-paper-plane"></i></a>
                         </div>
                     </div>
                 </div>
@@ -471,7 +473,7 @@
                         <input id="phoneNumber" class="input" type="text" placeholder="Phone Number">
                         <input id="subject" class="input" type="text" placeholder="Subject">
                         <textarea class="textarea" name="" id="message" placeholder="Your Message Here"></textarea>
-                        <button style="text-transform: uppercase;" type="submit">submit now!</button>
+                        <button class="btn-form" type="submit">submit now!</button>
                     </form>
                 </div>
             </div>
@@ -481,48 +483,58 @@
     </main>
 
     <!-- Footer (with copyright?): start -->
-    <footer class="container footer bgr-gray">
-        <div class="row">
-            <div class="col-lg-3 col-md-12">
-                <div>
-                    <img src="./img/footer/logo.png" alt="Logo">
+    <footer class="footer bgr-gray footer-bgr">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12">
+                        <div>
+                            <img src="./img/footer/logo.png" alt="Logo">
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque modi neque obcaecati quaerat, nisi voluptatem?</p>
+                        <div class="socials-footer">
+                            <a class="fab fa-facebook-f" href="#" target="_blank"></a>
+                            <a class="fab fa-instagram" href="#" target="_blank"></a>
+                            <a class="fab fa-twitter" href="#" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <h4 class="footer-title">Work hours</h4>
+                        <p>10.00 AM - 6.00 PM , Monday - Saturday</p>
+                        <p>Our Support and Sales team is available 24 * 7 to answer your queries</p>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <h4 class="footer-title">Navigate</h4>
+                        <nav>
+                            <a href="#">About Us</a>
+                            <a href="#">Features</a>
+                            <a href="#">Mobile App</a>
+                            <a href="#">Software Demo</a>
+                            <a href="#">Software Download</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Team</a>
+                            <a href="#">ChatBot</a>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <h4 class="footer-title">Privacy &amp; Tos</h4>
+                        <nav>
+                            <a href="#">Privacy</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Login</a>
+                            <a href="#">Register</a>
+                        </nav>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <h6>&copy; Copyrights 2023 <a href="#">AuburnForest</a></h6>
+                    </div>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque modi neque obcaecati quaerat, nisi voluptatem?</p>
-                <div class="socials-footer">
-                    <a class="fab fa-facebook-f" href="#" target="_blank"></a>
-                    <a class="fab fa-instagram" href="#" target="_blank"></a>
-                    <a class="fab fa-twitter" href="#" target="_blank"></a>
-                </div>
             </div>
-            <div class="col-lg-3 col-md-12">
-                <h4 class="footer-title">Work hours</h4>
-                <p>10.00 AM - 6.00 PM , Monday - Saturday</p>
-                <p>Our Support and Sales team is available 24 * 7 to answer your queries</p>
-            </div>
-            <div class="col-lg-3 col-md-12">
-                <h4 class="footer-title">Navigate</h4>
-                <nav>
-                    <a href="#">About Us</a>
-                    <a href="#">Features</a>
-                    <a href="#">Mobile App</a>
-                    <a href="#">Software Demo</a>
-                    <a href="#">Software Download</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Team</a>
-                    <a href="#">ChatBot</a>
-                </nav>
-            </div>
-            <div class="col-lg-3 col-md-12">
-                <h4 class="footer-title">Privacy &amp; Tos</h4>
-                <nav>
-                    <a href="#">Privacy</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Login</a>
-                    <a href="#">Register</a>
-                </nav>
-                </div>
-            </div>
-            <h6>&copy; Copyrights 2023 <a href="#">AuburnForest</a></h6>
     </footer>
     <!-- Footer: end -->
 
