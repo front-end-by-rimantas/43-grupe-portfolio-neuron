@@ -16,53 +16,62 @@
 
 <body>
     <!-- Header: start -->
-    <header class="container bgr-grad-left">
-        <div class="row">
-            <div class="col-12" style="display: flex;">
-                <div>
-                    <a href="#">Email</a>
-                    <a href="#">Phone number</a>
-                </div>
-                <div>
-                    <a href="#">Facebook</a>
-                    <a href="#">Google+</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Linkedin</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12" style="display: flex;">
-                <a href="#">
-                    <img src="#" alt="Logo">
-                </a>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Features</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                </nav>
-                <div>
-                    <a href="#">Cart</a>
-                    <a href="#">Search</a>
+    <section class="head_n_hero bgr-grad-left">
+        
+        <header class="container ">
+            <div class="row ">
+                <div class="col-12 header_rows ss">
+                    <div class="head_contacts">
+                        <div class="head_email">
+                            <p class="h_logo"><i class="fa-regular fa-envelope-open"></i></p>
+                            <a href="#">info@yourwebsite.com</a>
+                        </div>
+                        <div class="head_phone">
+                        <p class="h_logo"> <i class="fa-solid fa-phone"></i></p>
+                        <a href="#">(+123) 456789</a>
+                    </div>
+                    </div>
+                    <div class="head_socials">
+                        <a  class="common_element" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a  class="common_element" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a  class="common_element" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a  href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- Header: end -->
-
-    <main>
-        <!-- Hero: start -->
-        <section class="container bgr-grad-left">
             <div class="row">
+                <div class="col-12 header_rows " >
+                    <a href="#">
+                        <img class="h_logo" src="./img/slider/logo-white.png" alt="Logo">
+                    </a>
+                    <div class="nav_n_search">
+                        <nav class="header_nav">
+                            <a class="common_element" href="#">Home</a>
+                            <a class="common_element" href="#">About</a>
+                            <a class="common_element" href="#">Features</a>
+                            <a class="common_element" href="#">Pages</a>
+                            <a class="common_element" href="#">Shop</a>
+                            <a class="common_element" href="#">Blog</a>
+                            <a class="common_element" href="#">Contact</a>
+                        </nav>
+                        <div class="cart_search">
+                            <a class="common_element" href="#"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                            <a  href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+        </header>
+        <!-- Header: end -->
+        <!-- Hero: start -->
+        <section class="container bgr-grad-left hero">
+            <div class="row hero_row">
                 <div class="col-6">
-                    <h1>
+                    <h1 class="title">
                         AI &amp; machine learning
                     </h1>
-                    <p>
+                    <p class="title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, modi?
                     </p>
                     <div class="btn-container">
@@ -70,17 +79,21 @@
                         <a class="btn btn-transparent">Join now</a>
                     </div>
                 </div>
-
-                <div class="col-3">
-                    <img src="" alt="Robot-animated">
-                </div>
-
-                <div class="col-3">
-                    <img src="" alt="Bedarbiai">
+                <div class="header_img">
+                    <div class="col-3">
+                        <img class="robot" src="./img/slider/sl1-ly1.png" alt="Robot-animated">
+                    </div>
+                    <div class="col-3 bedarbiai">
+                        <img src="./img/slider/sl1-ly2.png" alt="Bedarbiai">
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- Hero: end -->
+    </section>
+    
+    
+    <!-- Hero: end -->
+    <main>
 
         <!-- Power Your Creativity: start -->
         <section class="container">
