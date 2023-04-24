@@ -1,0 +1,30 @@
+.footer {
+    display: block;
+    box-sizing: border-box;
+}
+.footer-bgr {
+    background: url(../../img/footer/footer-bg.jpg);
+    background-repeat: none;
+    /* background-size: cover; */
+}
+.footer-title{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    z-index: 0;
+    position: relative;
+    line-height: 1.3em;
+    margin: 0 0 40px 0;
+}
+.footer-title::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: calc(1em - 5px);
+    width: 70px;
+    height: 5px;
+    background: var(--color-grad-270);
+}
+

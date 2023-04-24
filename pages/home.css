@@ -6,6 +6,9 @@
 @import url(../css/components/colour_gradient.css);
 @import url(../css/components/default_buttons.css);
 @import url(../css/fonts/home_fonts.css);
+@import url(../css/base/base.css);
+@import url(../css/base/footer.css);
+
 
 
 /* Custom from here*/
@@ -13,9 +16,121 @@
 
 
 /* Header styles: start */
+
+header * {
+color: white;
+font-size: 500;
+
+}
+.head_n_hero .container{
+    padding: 0;
+}
+.header_rows{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.head_contacts{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.head_phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.head_socials{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav_n_search{
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header_nav{
+    width: 70%;
+  display:flex ;
+  
+  align-items: center;
+}
+.common_element{
+    padding-right: 17px;
+}
+
+.cart_search{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+
+.h_logo{
+   padding-right: 10px;
+   
+}
+.static_nav{
+    display: none;
+    
+}
+
 /* Header styles: end */
 
 /* Hero styles: start */
+.head_n_hero{
+    height: 100vh;
+}
+.header_img{
+    
+display: flex;
+position: relative;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+
+
+.robot{
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-name: scrolling;
+    position: absolute;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes scrolling {
+    0%{
+ bottom: 0px;
+    }
+    
+
+    50%{
+bottom: 40px;
+    }
+
+    100%{
+        bottom: 0px;
+    }
+}
 /* Hero styles: end */
 
 /* Power Your Creativity: start */
@@ -25,6 +140,57 @@
 /* We Create The Most Realistic Artificial Intelligence: end */
 
 /* Statistics: start */
+.stats-counter{
+    display: play;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 0;
+}
+.single-counter{
+    display: inline-block;
+    position: relative;
+}
+  
+
+.counter-text {
+position: absolute;
+width: 100%;
+top :50%;
+left: 50%;
+transform:translate(-50%,50%) ;
+text-align: center;
+color:white;
+
+}
+.count-text-number {
+   font-weight: 600; 
+   font-size: 30px;
+}
+.count-text-number::after{
+    content: '+';
+}
+.count-text-title{
+    font-size: 16px;
+
+}
+/*@media(min-width:760){
+    .stats-counter{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}*/
+.single-counter{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.single-text-number{
+    font-size: 30px;
+}
+.count-text-title{
+    font-size: 18px;
+}
 /* Statistics: end */
 
 /* Our Core Services: start */
@@ -34,6 +200,42 @@
 /* Our Latest Project: end */
 
 /* Newsletter: start */
+.newsletter{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.inbox_logo{
+    font-size: 235px;
+    margin: 0;
+}
+.inbox{
+   width: 30%;
+}
+.newsletter_form{
+    font-size: 30px;
+    width: 70%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.email_form{
+    display: flex;
+    margin-top: 20px;
+}
+.inbox_input{
+    min-width: 700px;
+        min-height: 40px;
+}
+.bgr{
+color: var(--color-grad-270);
+}
 /* Newsletter: end */
 
 /* How We Works: start */
@@ -70,13 +272,13 @@
     height: 150px;
     max-height: 400px;
 }
-
 .form ::placeholder {
     color: #777;
     font-style: italic;
     font-size: 0.9em;
 }
+button {
+    width: 100%;
+    padding: 15px;
+}
 /* Contact With Us: end */
-
-/* Footer: start */
-/* Footer: end  */
