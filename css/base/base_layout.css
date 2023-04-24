@@ -41,6 +41,12 @@
     --ml10: calc(var(--ml9) + var(--inc));
     --ml11: calc(var(--ml10) + var(--inc));
 }
+
+main {
+    display: inline-block;
+    width: 100%;
+}
+
 .bgr-grad-left {
     background:var(--color-grad-270);
 }
@@ -142,6 +148,7 @@ p + p {
 }
 
 .btn {
+    display: inline-block;
     text-transform: uppercase;
     text-align: center;
     border-radius: 50px;
