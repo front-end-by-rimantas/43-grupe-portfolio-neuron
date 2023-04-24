@@ -120,7 +120,8 @@ body h3 {
 p {
     color: var(--grey);
     font-size: 15px;
-    line-height: 1.3em;
+    line-height: 1.75em;
+    font-weight: 400;
 }
 p + p {
     margin: 26px 0 0 0; 
