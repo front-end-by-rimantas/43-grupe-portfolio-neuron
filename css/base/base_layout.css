@@ -76,7 +76,22 @@ main {
     margin: 100px 0 26px;
     position: relative;
 }
-
+.head_title{
+    text-transform: capitalize;
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.head_subtitle{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 0 30px;
+    color: white;
+    font-weight: 400;
+}
 .title::after{
     content: "";
     display: inline-block;
