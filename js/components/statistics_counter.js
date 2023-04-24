@@ -3,8 +3,8 @@ const speedOfCounting = 1000;
 
 counters.forEach( counting => {
    const animate = () => {
-      const value = +counting.getAttribute('targetvalue');
-      const data = +counting.innerText;
+      const value =+ counting.getAttribute('targetvalue');
+      const data =+ counting.innerText;
      
       const time = value / speedOfCounting;
      if(data < value) { //jeigu skaiciuojamas skaicius yra mazesnis negu nurodytas target value, skaiciuoti toliau:
