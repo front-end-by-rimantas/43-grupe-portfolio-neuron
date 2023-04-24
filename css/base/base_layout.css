@@ -141,18 +141,18 @@ p + p {
 .container,
 .container-fluid {
     width: 100%;
-    padding: 60px 0px 0px 0px;
+    /* padding: 60px 0px 0px 0px; */
     float: left;
 }
 .container > .row {
     width: var(--width);
-    margin: 20px calc((100% - var(--width)) / 2);
+    margin: 0px calc((100% - var(--width)) / 2); /* margin 20px ->0px
     float: left;
    /* background-color: pink; */
 }
 .container-fluid > .row {
     width: 100%;
-    margin: 20px 0;
+    /* margin: 20px 0; */
     float: left;
 }
 
