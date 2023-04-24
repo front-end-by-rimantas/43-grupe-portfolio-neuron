@@ -142,6 +142,7 @@ p + p {
 }
 
 .btn {
+    display: inline-block;
     text-transform: uppercase;
     text-align: center;
     border-radius: 50px;
