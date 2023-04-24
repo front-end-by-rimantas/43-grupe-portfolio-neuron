@@ -22,6 +22,7 @@ color: white;
 font-size: 500;
 
 }
+
 .head_n_hero .container{
     padding: 0;
 }
@@ -106,29 +107,25 @@ justify-content: space-between;
 align-items: flex-end;
 }
 
-
-
-.robot{
-    animation-duration: 4s;
-    animation-delay: 0.4s;
-    animation-name: scrolling;
-    position: absolute;
-    animation-iteration-count: infinite;
-    
-    
+.img_robot {
+    max-width: 100%;
 }
-@keyframes scrolling {
-    0%{
- bottom: 0px;
-    }
-    
 
-    50%{
-bottom: 40px;
-    }
+.robotukas {
+    animation: robotukas 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
 
-    100%{
-        bottom: 0px;
+@keyframes robotukas {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
 /* Hero styles: end */
