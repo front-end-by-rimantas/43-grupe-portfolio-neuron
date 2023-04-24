@@ -276,7 +276,6 @@ color: var(--color-grad-270);
     font-size: 18px;
     line-height: 1em;
     border: none;
-    border-bottom: 1px solid #ccc;
 }
 .form > .input {
     width: calc(50% - 15px);
@@ -286,6 +285,13 @@ color: var(--color-grad-270);
     min-height: 100px;
     height: 150px;
     max-height: 400px;
+}
+.form > .contact-bg {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: unset;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
 }
 .form ::placeholder {
     color: #777;
