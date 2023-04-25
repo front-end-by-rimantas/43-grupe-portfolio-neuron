@@ -194,6 +194,25 @@ header * {
 /* Power Your Creativity: end */
 
 /* We Create The Most Realistic Artificial Intelligence: start */
+.about-img {
+    max-width: 100%;
+    height: auto;
+}.about-img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.margin-0{
+    margin: 0;
+}
+.about {
+    margin: 0 0 26px;
+}
+
+
+
+
 /* We Create The Most Realistic Artificial Intelligence: end */
 
 /* Statistics: start */
