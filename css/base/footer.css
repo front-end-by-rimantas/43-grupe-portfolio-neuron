@@ -71,6 +71,10 @@
         flex-direction: column;
         width: 100%;
     }
+    .footer-top .row {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .footer a {
