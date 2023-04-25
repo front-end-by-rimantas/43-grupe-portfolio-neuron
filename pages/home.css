@@ -194,14 +194,6 @@ header * {
 /* Power Your Creativity: end */
 
 /* We Create The Most Realistic Artificial Intelligence: start */
-@media(max-width:992px){
-.row-create{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    
-}
-}
-
 .about-img {
     max-width: 100%;
     height: auto;
@@ -376,8 +368,8 @@ header * {
 .box-works:after {
     content: '';
     position: absolute;
-    width: 90%;
-    border: 1px dashed #01a0f9;
+    width: 15em;
+    border: 0.02em dashed #01a0f9;
     left: 70%;
     bottom: 20px;
 }
@@ -401,11 +393,11 @@ header * {
 }
 
 .box_icon_work i:before {
-    height: 2em;
-    width: 2em;
+    height: 1.75em;
+    width: 1.75em;
     background: var(--color-grad-41);
     border-radius: 50%;
-    line-height: 2em;
+    line-height: 1.75em;
     font-size: 1.2em;
     color: var(--white);
     display: inline-block;
@@ -425,7 +417,7 @@ header * {
     position: relative;
     height: 40px;
     width: 40px;
-    border: 1px dashed #01a0f9;
+    border: 0.02em dashed #01a0f9;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -460,6 +452,25 @@ header * {
     align-items: center;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+@media (max-width:1000px ) {
+    
+    .box-works:before {
+       display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+    
+    .circle:after {
+       display: none;
+    }
+
+    .box-works:after {
+        display: none;
+    }
 }
 
 /* How We Works: end */
