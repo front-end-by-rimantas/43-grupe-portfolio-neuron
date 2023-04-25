@@ -148,6 +148,7 @@
     width: 315px;
     border-radius: 10px;
     background-color: #fff;
+    display: none;
 }
 .chat-header {
     width: 100%;
