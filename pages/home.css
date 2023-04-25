@@ -366,24 +366,53 @@ header * {
 /* Newsletter: end */
 
 /* How We Works: start */
-.box_icon_work {
+.box-works {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-left: 45px;
-    margin-bottom: 2em;
+}
+.box_icon_work i:before {
+    height: 2em;
+    width: 2em;
     background: var(--color-grad-41);
-    height: 12em;
-    width: 12em;
     border-radius: 50%;
+    line-height: 2em;
+    font-size: 1.2em;
+    color: var(--white);
+    display: inline-block;
+    margin: 0.2em;
+    transition: all 0.7s ease 0s;
 
 }
 
-.box_icon_work::before {
-    content: '';
-    height: 15em;
-    width: 15em;
+.box_icon_work {
+    display: inline-block;
+    border: 1px dashed #01a0f9;
     border-radius: 50%;
+    position: relative;
+}
+
+.circle {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border: 1px dashed #01a0f9;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.circle:after {
+    content: '';
+    position: absolute;
+    height: 1.75em;
+    width: 1.75em;
+    background: linear-gradient(-41deg, #09c778, #01a0f9);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .works-icon {
@@ -398,15 +427,14 @@ header * {
     padding-bottom: 10em;
 }
 
-.box-works {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .works-titles {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 /* How We Works: end */
