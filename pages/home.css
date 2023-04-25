@@ -41,6 +41,8 @@ header * {
 
 }
 
+
+
 .head_n_hero .container {
     padding: 0;
 }
@@ -50,6 +52,8 @@ header * {
     justify-content: space-between;
     width: 100%;
 }
+
+
 
 .header .head_contacts {
     display: flex;
@@ -108,10 +112,20 @@ header * {
 
 }
 
-.static_nav {
-    display: none;
+/* .head_row_sticky {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 
-}
+
+} */
+
+
 
 /* Header styles: end */
 
@@ -502,6 +516,7 @@ header * {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .form {
     display: flex;
     flex-wrap: wrap;
