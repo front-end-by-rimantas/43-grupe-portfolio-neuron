@@ -480,6 +480,12 @@ header * {
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
+.form-bgr {
+    background-image: url('../img/contacts/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .form {
     display: flex;
     flex-wrap: wrap;
@@ -501,7 +507,7 @@ header * {
 }
 
 .form>.input {
-    width: calc(50% - 15px);
+    width: calc(50% - 8px);
 }
 
 .form>.textarea {
