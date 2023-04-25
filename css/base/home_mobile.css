@@ -1,15 +1,56 @@
 /* mobiliosios versijos kodas home puslapiui */
 /* header start */
-@media(max-width: 1000px) {
+@media(max-width: 991px) {
     .header .header_nav {
         display: none;
     }
-}
 
-.header .header_menu {
-    display: inline-block;
-}
-}
+    .header .nav_n_search .head_menu {
+        display: inline-block;
+    }
 
 
-/* header finish */
+
+
+
+    .hero_row .hero_title {
+        flex-wrap: wrap;
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+
+
+
+}
+
+@media(max-width: 800px) {
+    .header .head_row1 {
+        display: none;
+    }
+
+    .hero_row .hero_img {
+        display: none;
+    }
+
+
+    .hero_row .hero_text {
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero_subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px 0 30px;
+        color: white;
+        font-weight: 400;
+    }
+
+
+
+
+    /* header finish */
