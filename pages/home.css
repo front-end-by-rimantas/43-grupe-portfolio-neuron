@@ -309,6 +309,8 @@ color: var(--color-grad-270);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 45px;
+    margin-bottom: 2em;
     background: var(--color-grad-41);
     height: 12em;
     width: 12em;
@@ -316,6 +318,8 @@ color: var(--color-grad-270);
 }
 
 .works-icon {
+    display: flex;
+    align-content: center;
     font-size: 100px;
     margin: 0;
     color: var(--white);
@@ -323,6 +327,17 @@ color: var(--color-grad-270);
 
 .work {
     padding-bottom: 10em;
+}
+
+.box-works {
+    display: flex;
+    flex-direction: column;
+}
+
+.works-titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* How We Works: end */
