@@ -42,6 +42,10 @@
     --ml11: calc(var(--ml10) + var(--inc));
 }
 
+body {
+    width: 100%;
+}
+
 main {
     display: inline-block;
     width: 100%;

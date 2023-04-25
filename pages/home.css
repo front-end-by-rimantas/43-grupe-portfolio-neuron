@@ -247,6 +247,9 @@ max-width: 100%;
 /* Statistics: end */
 
 /* Our Core Services: start */
+.services {
+    padding-bottom: 10em;
+}
 /* Our Core Services: end */
 
 /* Our Latest Project: start */
@@ -259,8 +262,12 @@ max-width: 100%;
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    /* padding: 40px; */
     flex-wrap: wrap;
+    background-color: var(--white);
+    position: absolute;
+    top: -200px;
+    
 }
 .inbox_logo{
     font-size: 235px;
@@ -284,7 +291,13 @@ max-width: 100%;
 }
 .inbox_input{
     min-width: 700px;
-        min-height: 40px;
+    min-height: 40px;
+}
+
+.newsletter-cont {
+    position: relative;
+    height: 500px;
+    padding-bottom: 100px;
 }
 .bgr{
 color: var(--color-grad-270);
