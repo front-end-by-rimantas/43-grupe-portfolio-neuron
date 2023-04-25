@@ -1,1 +1,15 @@
 /* mobiliosios versijos kodas home puslapiui */
+/* header start */
+@media(max-width: 1000px) {
+    .header .header_nav {
+        display: none;
+    }
+}
+
+.header .header_menu {
+    display: inline-block;
+}
+}
+
+
+/* header finish */
