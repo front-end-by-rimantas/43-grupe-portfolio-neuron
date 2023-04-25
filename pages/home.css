@@ -305,7 +305,7 @@ color: var(--color-grad-270);
 /* Newsletter: end */
 
 /* How We Works: start */
-.box_icon {
+.box_icon_work {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,7 +315,9 @@ color: var(--color-grad-270);
     height: 12em;
     width: 12em;
     border-radius: 50%;
+    
 }
+
 
 .works-icon {
     display: flex;
