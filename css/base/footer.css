@@ -114,9 +114,18 @@
 .footer  a:hover{
     color: var(--blue);
 }
-
-.chatbot {
+/* Chatbox */
+.chatbot, 
+.chat-header,
+.chat-header-cont,
+.chat-info, 
+.chat-img, 
+.chat-exit, 
+.chat-zone,
+.chat-start {
     display: flex;
+}
+.chatbot {
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -132,36 +141,30 @@
     color: #fff;
     font-size: 50px;
 }
-
-
 .chat-box {
     position: absolute;
     right: 0;
     bottom: 100px;
     width: 315px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
 }
 .chat-header {
-    display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     background: var(--color-grad-270);
 }
 .chat-header-cont {
-    display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 15px auto;
 }
 .chat-info {
-    display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .chat-img {
-    display: flex;
     align-items: center;
     position: relative;
 }
@@ -175,11 +178,21 @@
     background: #f00;
 }
 .chat-status {
-    
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.chat-status > span {
+   font-size: 12px;
+}
+.chat-exit {
+    align-items: center;
+}
+.chat-exit i {
+    font-size: 30px;
 }
 
 .chat-zone {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -191,9 +204,6 @@
 }
 
 
-.chat-start {
-    display: flex;
-}
 .chat-start a {
     font-size: 16px;
     width: 90%;
