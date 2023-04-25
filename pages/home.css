@@ -20,7 +20,7 @@
 
 header * {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
@@ -38,7 +38,7 @@ header * {
 
 .head_social {
     text-align: center;
-    font-size: 12px;
+
 }
 
 .head_n_hero .container {
@@ -72,6 +72,9 @@ header * {
     text-align: center;
 }
 
+.header .head_menu {
+    display: none;
+}
 
 .nav_n_search {
     font-weight: 500;
@@ -115,6 +118,10 @@ header * {
 /* Hero styles: start */
 .hero_row {
     padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .hero_text {
@@ -123,7 +130,7 @@ header * {
     align-items: start;
     text-align: start;
     flex-direction: column;
-    max-width: 50%;
+    width: 50%;
 
 }
 
@@ -148,12 +155,14 @@ header * {
     height: 100vh;
 }
 
-.header_img {
+.hero_img {
 
     display: flex;
     position: relative;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    width: 50%;
+
 }
 
 .img_robot {
@@ -168,6 +177,10 @@ header * {
 
 .img_people {
     max-width: 100%;
+}
+
+.hero_row .btn {
+    margin-top: 20px;
 }
 
 @keyframes robotukas {
@@ -198,15 +211,18 @@ header * {
 .about-img {
     max-width: 100%;
     height: auto;
-}.about-img{
+}
+
+.about-img {
     vertical-align: middle;
     border-style: none;
 }
 
 
-.margin-0{
+.margin-0 {
     margin: 0;
 }
+
 .about {
     margin: 0 0 26px;
 }
@@ -455,18 +471,18 @@ header * {
     margin-bottom: 2em;
 }
 
-@media (max-width:1000px ) {
-    
+@media (max-width:1000px) {
+
     .box-works:before {
-       display: none;
+        display: none;
     }
 
     .circle {
         display: none;
     }
-    
+
     .circle:after {
-       display: none;
+        display: none;
     }
 
     .box-works:after {
