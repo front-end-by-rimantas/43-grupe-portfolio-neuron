@@ -305,6 +305,26 @@ color: var(--color-grad-270);
 /* Newsletter: end */
 
 /* How We Works: start */
+.box_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-grad-41);
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+}
+
+.works-icon {
+    font-size: 100px;
+    margin: 0;
+    color: var(--white);
+}
+
+.work {
+    padding-bottom: 10em;
+}
+
 /* How We Works: end */
 
 /* Recent Blog Post: start */
