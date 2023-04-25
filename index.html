@@ -566,7 +566,7 @@
             </div>
         </div>
         <div class="chatbot">
-            <div class="chat-box">
+            <div id="chat-box" class="chat-box">
                 <div class="chat-header">
                     <div class="chat-header-cont">
                         <div class="chat-info">
@@ -583,7 +583,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="chat-exit">
+                        <div id="exit" class="chat-exit">
                             <i class="fab fa-instagram"></i>
                         </div>
 
@@ -597,11 +597,14 @@
                     <a class="btn btn-gradient">Let's start chat</a>
                 </div>
             </div>
-            <i class="fab fa-instagram"></i>
+            <div id="chat-toggle" class="chat-bubble">
+                <i class="fab fa-instagram"></i>
+            </div>
         </div>
     </footer>
     <!-- Footer: end -->
     <script src="./js/components/statistics_counter.js" type="module" defer></script>
+    <script src="./js/components/chat_bot.js" type="module" defer></script>
 </body>
 
 </html>
