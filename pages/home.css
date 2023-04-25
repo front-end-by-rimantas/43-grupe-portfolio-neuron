@@ -362,7 +362,36 @@ header * {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
+
+.box-works:after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    border: 1px dashed #01a0f9;
+    left: 70%;
+    bottom: 20px;
+}
+
+.box-works2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.box-works:before {
+    font: var(--fa-font-solid);
+    content: "\f101";
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 7px;
+    left: 58%;
+    color: #09c778;
+}
+
 .box_icon_work i:before {
     height: 2em;
     width: 2em;
@@ -391,7 +420,6 @@ header * {
     border: 1px dashed #01a0f9;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 .circle:after {
@@ -404,7 +432,6 @@ header * {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .works-icon {
@@ -418,8 +445,6 @@ header * {
 .work {
     padding-bottom: 10em;
 }
-
-
 
 .works-titles {
     display: flex;
