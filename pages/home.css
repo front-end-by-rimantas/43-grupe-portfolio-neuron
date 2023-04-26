@@ -403,10 +403,6 @@ header * {
     padding-bottom: 10em;
 }
 
-/* .work-pad {
-    margin-right: 50px;
-} */
-
 .box-works {
     display: flex;
     flex-direction: column;
@@ -418,11 +414,10 @@ header * {
 .box-works:after {
     content: '';
     position: absolute;
-    width: 15em;
+    width: 15rem;
     border: 0.02em dashed #01a0f9;
     left: 70%;
-    bottom: 20px;
-    
+    bottom: 20px; 
 }
 
 .box-works2 {
