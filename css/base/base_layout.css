@@ -81,6 +81,7 @@ main {
     color: var(--grey-dark);
     font-size: 30px;
     font-weight: 600;
+    text-transform: capitalize;
     z-index: 0;
     line-height: 1.3em;
     margin: 100px 0 26px;
