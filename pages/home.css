@@ -21,7 +21,7 @@
 
 header * {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
@@ -141,7 +141,7 @@ header * {
 
 /* Hero styles: start */
 .hero_row {
-    padding-top: 100px;
+    padding-top: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
