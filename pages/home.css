@@ -21,12 +21,12 @@
 
 header * {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
 .header .col-12 {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 0;
 }
 
@@ -113,6 +113,16 @@ header * {
 
 }
 
+.head_pseudo::after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: var(--blue);
+}
+
 /* .head_row_sticky {
     position: fixed;
     display: flex;
@@ -123,7 +133,6 @@ header * {
     width: 100%;
     z-index: 999;
 
-
 } */
 
 
@@ -132,7 +141,7 @@ header * {
 
 /* Hero styles: start */
 .hero_row {
-    padding-top: 100px;
+    padding-top: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -217,6 +226,8 @@ header * {
 
 }
 
+
+
 /* Hero styles: end */
 
 /* Power Your Creativity: start */
@@ -250,14 +261,14 @@ header * {
 /* Power Your Creativity: end */
 
 /* We Create The Most Realistic Artificial Intelligence: start */
-@media(max-width:992px){
-    .row-create{
+@media(max-width:992px) {
+    .row-create {
         display: flex;
         flex-wrap: wrap-reverse;
-    
+
     }
-    }
-    
+}
+
 .about-img {
     max-width: 100%;
     height: auto;
@@ -363,6 +374,41 @@ header * {
     padding-bottom: 10em;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 4rem 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #e9eaf0;
+}
+
+.box_icon {
+    margin-bottom: 2rem;
+    /* position: relative; */
+    /* z-index: 1;
+    transition: all 0.7s ease 0s; */
+
+}
+
+.box_icon i:before {
+    margin: 0;
+    font-size: 70px;
+    line-height: 1;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    background-image: var(--color-grad-41);
+    transition: all 0.7s ease 0s;
+}
+
+.box-title {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+
 /* Our Core Services: end */
 
 /* Our Latest Project: start */
@@ -444,7 +490,7 @@ header * {
     width: 15rem;
     border: 0.02em dashed #01a0f9;
     left: 70%;
-    bottom: 20px; 
+    bottom: 20px;
 }
 
 .box-works2 {
@@ -550,21 +596,26 @@ header * {
     display: inline-block;
     padding-right: 15px;
 }
-.blog-meta li i, 
+
+.blog-meta li i,
 .blog-meta li span {
     color: #01a0f9;
     margin-right: 5px;
 }
+
 .blog-meta li:last-child {
     padding: 0;
 }
+
 .blog-meta li i,
 .blog-meta li span {
-  color: #6669e6;
+    color: #6669e6;
 }
+
 .blog-meta {
     margin-bottom: 30px;
 }
+
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
