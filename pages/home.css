@@ -1,5 +1,6 @@
 /* Css elementu importavimas kurie pritaikomi home page */
 @import url(../css/3rd_party/font_awesome/css/all.min.css);
+@import url(../css/3rd_party/font_awesome/css/font-awesome.min.css);
 @import url(../css/base/base_layout.css);
 @import url(../css/base/home_mobile.css);
 @import url(../css/components/chat_bot.css);
@@ -507,6 +508,25 @@ header * {
 /* How We Works: end */
 
 /* Recent Blog Post: start */
+.blog-meta li {
+    display: inline-block;
+    padding-right: 15px;
+}
+.blog-meta li i, 
+.blog-meta li span {
+    color: #01a0f9;
+    margin-right: 5px;
+}
+.blog-meta li:last-child {
+    padding: 0;
+}
+.blog-meta li i,
+.blog-meta li span {
+  color: #6669e6;
+}
+.blog-meta {
+    margin-bottom: 30px;
+}
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
