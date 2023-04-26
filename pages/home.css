@@ -336,6 +336,41 @@ header * {
     padding-bottom: 10em;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 4rem 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #e9eaf0;
+}
+
+.box_icon {
+    margin-bottom: 2rem;
+    /* position: relative; */
+    /* z-index: 1;
+    transition: all 0.7s ease 0s; */
+
+}
+
+.box_icon i:before {
+    margin: 0;
+    font-size: 70px;
+    line-height: 1;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    background-image: var(--color-grad-41);
+    transition: all 0.7s ease 0s;
+}
+
+.box-title {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+
 /* Our Core Services: end */
 
 /* Our Latest Project: start */
