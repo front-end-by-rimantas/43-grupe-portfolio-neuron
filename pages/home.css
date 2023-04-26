@@ -398,6 +398,10 @@ header * {
 /* Newsletter: end */
 
 /* How We Works: start */
+
+.work {
+    padding-bottom: 10em;
+}
 .box-works {
     display: flex;
     flex-direction: column;
@@ -443,7 +447,6 @@ header * {
     display: inline-block;
     margin: 0.2em;
     transition: all 0.7s ease 0s;
-
 }
 
 .box_icon_work {
@@ -482,9 +485,7 @@ header * {
     color: var(--white);
 }
 
-.work {
-    padding-bottom: 10em;
-}
+
 
 .works-titles {
     display: flex;
