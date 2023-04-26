@@ -27,7 +27,17 @@
 }
 
 @media(max-width: 800px) {
+    .hero .hero_row {
+        padding: 140px
+    }
+
+    ;
+
     .header .head_row1 {
+        display: none;
+    }
+
+    .head_pseudo {
         display: none;
     }
 
