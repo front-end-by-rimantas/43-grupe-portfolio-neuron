@@ -223,6 +223,14 @@ header * {
 /* Power Your Creativity: end */
 
 /* We Create The Most Realistic Artificial Intelligence: start */
+@media(max-width:992px){
+    .row-create{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    
+    }
+    }
+    
 .about-img {
     max-width: 100%;
     height: auto;
