@@ -28,7 +28,7 @@
 
 @media(max-width: 800px) {
     .hero .hero_row {
-        padding: 140px;
+        padding-top: 140px;
     }
 
 
