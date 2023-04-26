@@ -1,6 +1,8 @@
 /* mobiliosios versijos kodas home puslapiui */
 /* header start */
-@media(max-width: 991px) {
+
+
+@media (max-width: 991px) {
     .header .header_nav {
         display: none;
     }
@@ -52,5 +54,6 @@
 
 
 
+}
 
-    /* header finish */
+/* header finish */

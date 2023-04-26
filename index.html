@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="header_rows col-12 ">
+                <div class=" head_row_sticky header_rows col-12 ">
                     <a href="#">
                         <img class="h_logo" src="./img/slider/logo-white.png" alt="Logo">
                     </a>
@@ -362,7 +362,7 @@
         <!-- Our Core Services: end -->
 
         <!-- Our Latest Project: start -->
-        <section class="container center">
+        <section class="container center work">
             <div class="col-12 ">
                 <h2 class="title">Our Latest Project</h2>
             </div>
@@ -461,25 +461,43 @@
         <!-- How We Works: end -->
 
         <!-- Recent Blog Post: start -->
-        <section class="container center bgr-gray">
+        <section class="container bgr-gray work center">
             <div class="col-12 ">
                 <h2 class="title">Recent Blog Post</h2>
             </div>
             <div class="row">
                 <div class="col-4 col-lg-4 col-md-12 col-sm-12">
                     <img src="./img/blog/blog1.jpg" alt="pic 1" class="carousel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique voluptatem in.</p>
-                    <a class="btn btn-gradient">READ MORE</a>
+                    <ul class="blog-meta">
+                        <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Nov 28, 2019</li>
+                        <li><i class="fa fa-user-o" aria-hidden="true"></i>Admin</li>
+                        <li><span>10</span>Comments</li>
+                    </ul>
+                    <h3 style="text-align: left;">Man in Red Plaid Shirt Talking on Phone Terrace</h3>
+                    <p class="margin-0">The Tutorial covers examples of identification And Rew Garfield and verifies if a picture</p>
+                    <a class="btn btn-gradient" style="float: left;">read more</a>
                 </div>
                 <div class="col-4 col-lg-4 col-md-12 col-sm-12">
                     <img src="./img/blog/blog2.jpg" alt="pic 2" class="carousel">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque debitis labore odio.</p>
-                    <a class="btn btn-gradient">READ MORE</a>
+                    <ul class="blog-meta">
+                        <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Nov 28, 2019</li>
+                        <li><i class="fa fa-user-o" aria-hidden="true"></i>Admin</li>
+                        <li><span>10</span>Comments</li>
+                    </ul>
+                    <h3 style="text-align: left;">Man in Red Plaid Shirt Talking on Phone Terrace</h3>
+                    <p>The Tutorial covers examples of identification And Rew Garfield and verifies if a picture</p>
+                    <a class="btn btn-gradient" style="float: left;">read more</a>
                 </div>
                 <div class="col-4 col-lg-4 col-md-12 col-sm-12">
                     <img src="./img/blog/blog3.jpg" alt="pic 3" class="carousel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae ipsa deserunt.</p>
-                    <a class="btn btn-gradient">READ MORE</a>
+                    <ul class="blog-meta">
+                        <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Nov 28, 2019</li>
+                        <li><i class="fa fa-user-o" aria-hidden="true"></i>Admin</li>
+                        <li><span>10</span>Comments</li>
+                    </ul>
+                    <h3 style="text-align: left;">Man in Red Plaid Shirt Talking on Phone Terrace</h3>
+                    <p>The Tutorial covers examples of identification And Rew Garfield and verifies if a picture</p>
+                    <a class="btn btn-gradient" style="float: left;">read more</a>
                 </div>
             </div>
         </section>
@@ -608,7 +626,7 @@
             </div>
         </div>
         <div class="chatbot">
-            <div class="chat-box">
+            <div id="chat-box" class="chat-box">
                 <div class="chat-header">
                     <div class="chat-header-cont">
                         <div class="chat-info">
@@ -625,8 +643,8 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="chat-exit">
-                            <i class="fab fa-instagram"></i>
+                        <div id="exit" class="chat-exit">
+                            <i class="fa-regular fa-circle-xmark"></i>
                         </div>
 
                     </div>
@@ -636,14 +654,17 @@
                     <p>Let me know if you're planning to create a chatbot for your business!</p>
                 </div>
                 <div class="chat-start">
-                    <a class="btn btn-gradient">Let's start chat</a>
+                    <a class="btn btn-gradient" href="#">Let's start chat</a>
                 </div>
             </div>
-            <i class="fab fa-instagram"></i>
+            <div id="chat-toggle" class="chat-bubble">
+                <i class="fa-sharp fa-regular fa-comments"></i>
+            </div>
         </div>
     </footer>
     <!-- Footer: end -->
     <script src="./js/components/statistics_counter.js" type="module" defer></script>
+    <script src="./js/components/chat_bot.js" type="module" defer></script>
 </body>
 
 </html>

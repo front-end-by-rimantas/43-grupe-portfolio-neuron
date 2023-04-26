@@ -1,5 +1,6 @@
 /* Css elementu importavimas kurie pritaikomi home page */
 @import url(../css/3rd_party/font_awesome/css/all.min.css);
+@import url(../css/3rd_party/font_awesome/css/font-awesome.min.css);
 @import url(../css/base/base_layout.css);
 @import url(../css/base/home_mobile.css);
 @import url(../css/components/chat_bot.css);
@@ -41,6 +42,8 @@ header * {
 
 }
 
+
+
 .head_n_hero .container {
     padding: 0;
 }
@@ -50,6 +53,8 @@ header * {
     justify-content: space-between;
     width: 100%;
 }
+
+
 
 .header .head_contacts {
     display: flex;
@@ -108,10 +113,20 @@ header * {
 
 }
 
-.static_nav {
-    display: none;
+/* .head_row_sticky {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 
-}
+
+} */
+
+
 
 /* Header styles: end */
 
@@ -493,6 +508,25 @@ header * {
 /* How We Works: end */
 
 /* Recent Blog Post: start */
+.blog-meta li {
+    display: inline-block;
+    padding-right: 15px;
+}
+.blog-meta li i, 
+.blog-meta li span {
+    color: #01a0f9;
+    margin-right: 5px;
+}
+.blog-meta li:last-child {
+    padding: 0;
+}
+.blog-meta li i,
+.blog-meta li span {
+  color: #6669e6;
+}
+.blog-meta {
+    margin-bottom: 30px;
+}
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
@@ -502,6 +536,7 @@ header * {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .form {
     display: flex;
     flex-wrap: wrap;
