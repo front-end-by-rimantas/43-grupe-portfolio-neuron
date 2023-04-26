@@ -80,6 +80,7 @@ main {
     text-transform: capitalize;
     color: var(--grey-dark);
     font-size: 30px;
+    font-weight: 600;
     z-index: 0;
     line-height: 1.3em;
     margin: 100px 0 26px;
