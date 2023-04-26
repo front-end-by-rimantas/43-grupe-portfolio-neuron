@@ -31,6 +31,10 @@
         display: none;
     }
 
+    .head_pseudo {
+        display: none;
+    }
+
     .hero_row .hero_img {
         display: none;
     }
