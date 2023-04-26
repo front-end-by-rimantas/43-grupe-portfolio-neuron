@@ -402,11 +402,17 @@ header * {
 .work {
     padding-bottom: 10em;
 }
+
+/* .work-pad {
+    margin-right: 50px;
+} */
+
 .box-works {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    justify-content: space-evenly;
 }
 
 .box-works:after {
@@ -416,6 +422,7 @@ header * {
     border: 0.02em dashed #01a0f9;
     left: 70%;
     bottom: 20px;
+    
 }
 
 .box-works2 {
@@ -429,10 +436,10 @@ header * {
 .box-works:before {
     font: var(--fa-font-solid);
     content: "\f101";
-    font-size: 1.5em;
+    font-size: 1em;
     position: absolute;
-    bottom: 7px;
-    left: 58%;
+    bottom: 0.8em;
+    left: 60%;
     color: #09c778;
 }
 
@@ -442,7 +449,7 @@ header * {
     background: var(--color-grad-41);
     border-radius: 50%;
     line-height: 1.75em;
-    font-size: 1.2em;
+    font-size: 1em;
     color: var(--white);
     display: inline-block;
     margin: 0.2em;
@@ -495,7 +502,7 @@ header * {
     margin-bottom: 2em;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
 
     .box-works:before {
         display: none;
