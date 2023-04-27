@@ -388,7 +388,7 @@ header * {
     padding-bottom: 10em;
 }
 
-.box-container {}
+
 
 .box {
 
@@ -558,16 +558,23 @@ header * {
 .email_form {
     display: flex;
     margin-top: 20px;
+    width: 84%;
+    position: relative;
 }
 
 .inbox_input {
-    min-width: 700px;
+    width: 100%;
+    max-width: 720px;
     line-height: 40px;
     height: 40px;
     border: none;
     border-bottom: solid 1px var(--blue);
     outline: none;
+<<<<<<< Updated upstream
     /* back */
+=======
+
+>>>>>>> Stashed changes
 }
 
 
@@ -587,7 +594,7 @@ header * {
 
 .btn-send {
 
-    position: relative;
+    position: absolute;
     background: var(--color-grad-270);
     color: #ffffff;
     outline: none;
@@ -599,7 +606,8 @@ header * {
     cursor: pointer;
     z-index: 9;
     transition: all 0.7s ease 0s;
-    right: 15px;
+    right: -10px;
+
 }
 
 /* Newsletter: end */
