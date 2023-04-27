@@ -265,6 +265,23 @@ header * {
 .power-box:hover::before{
     opacity: 1;
 }
+
+.power-box i {
+        margin: 0;
+        font-size: 60px;
+        line-height: 1;
+        background-clip: text;
+        opacity:1;
+        -webkit-background-clip: text;
+        color: rgba(0, 0, 0, 0);
+        background-image: var(--color-grad-41);
+        transition: all 0.7s ease 0s;
+}
+.power-box:hover i {
+    opacity:1;
+    color: #fff;
+}
+
 .power-box:hover p,
 .power-box:hover h3{
     color: #fff;
@@ -283,16 +300,6 @@ header * {
     margin-bottom: 20px;
 }
 
-.power-box i:before {
-        margin: 0;
-        font-size: 60px;
-        line-height: 1;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: rgba(0, 0, 0, 0);
-        background-image: var(--color-grad-41);
-        transition: all 0.7s ease 0s;
-}
 
 /* Power Your Creativity: end */
 
