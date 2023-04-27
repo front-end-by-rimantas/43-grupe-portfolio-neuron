@@ -538,6 +538,29 @@ header * {
 /* Our Core Services: end */
 
 /* Our Latest Project: start */
+@media (min-width: 991px) and (max-width:1200px) {
+    .project-img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0em 2em 0em;
+    }
+    
+}
+
+@media (min-width:362px) and (max-width:767px) {
+
+        .project-img-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1em 0em 2em 0em;
+    }
+}
+
+
 /* Our Latest Project: end */
 
 /* Newsletter: start */
