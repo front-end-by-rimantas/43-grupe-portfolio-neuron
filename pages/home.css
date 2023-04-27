@@ -239,6 +239,7 @@ header * {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    position: relative;
     width: 100%;
     min-height: 255px;
     background-color: #fff;
@@ -246,13 +247,45 @@ header * {
     margin-bottom: 30px;
     border-radius: 10px;
 }
-
-.power-box:before {
-    background: var(--color-grad-41);
-    width: 100%;
-    height: 100%;
+.power-box * {
+    z-index: 1;
 }
 
+.power-box::before {
+    background: var(--color-grad-41);
+    opacity: 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transition: all 0.7s ease 0s;
+    border-radius: 5px;
+    z-index: 0;
+}
+.power-box:hover::before{
+    opacity: 1;
+}
+
+.power-box i {
+        margin: 0;
+        font-size: 60px;
+        line-height: 1;
+        background-clip: text;
+        opacity:1;
+        -webkit-background-clip: text;
+        color: rgba(0, 0, 0, 0);
+        background-image: var(--color-grad-41);
+        transition: all 0.7s ease 0s;
+}
+.power-box:hover i {
+    opacity:1;
+    color: #fff;
+}
+
+.power-box:hover p,
+.power-box:hover h3{
+    color: #fff;
+}
 .power-box h3 {
     margin: 0;
 }
@@ -267,10 +300,6 @@ header * {
     margin-bottom: 20px;
 }
 
-.power-box i {
-    color: red;
-    font-size: 60px;
-}
 
 /* Power Your Creativity: end */
 
@@ -388,15 +417,12 @@ header * {
     padding-bottom: 10em;
 }
 
-.box-container {}
 
 .box {
-
     background-color: var(--white);
     padding: 3rem 2rem 3rem 2rem;
     border-radius: 10px;
     box-shadow: 10px 5px 5px #e9eaf0;
-
     display: grid;
     width: 100%;
     height: 100%;
@@ -428,11 +454,31 @@ header * {
     font-weight: 600;
     font-size: 1.25em;
     margin-bottom: 1em;
+    color: black;
 }
+
 
 .box-paragraph {
     line-height: 1.75em;
 }
+
+.box:hover {
+    background: var(--color-grad-41);
+}
+
+.box:hover .box-title {
+    color:white;
+}
+
+.box:hover .box-paragraph {
+    color:white;
+} 
+
+.box:hover .box_icon  i:before{
+    color: white;
+    background-image: unset;
+}
+
 
 @media (max-width:1248px) {
     .box-container {
@@ -466,6 +512,28 @@ header * {
 
 }
 
+@media (max-width:426px) {
+    .box-container {
+        margin-bottom: 5rem;
+        max-width: 100vw;
+        margin-left: 5vw;
+    }
+
+    .box {
+        display: grid;
+        max-width: 90vw;
+    }
+
+    .service-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* padding: 1em; */
+        max-width: 100vw;
+    }
+
+}
+
 
 /* Our Core Services: end */
 
@@ -473,9 +541,70 @@ header * {
 /* Our Latest Project: end */
 
 /* Newsletter: start */
-.newsletter-cont.container {
-    margin-top: 100px;
+
+.part_img{
+    width: 100%;
 }
+.part_rows{
+    padding: top 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.partners_bgr{  
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(../img/partners/partner-bg.jpg);
+padding-bottom: 100px;
+padding-top: 300px;
+
+
+}
+.partners .col-12{
+    margin: 0;
+}
+.part_row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 2em;
+    
+   
+}
+.partner1{
+    
+   margin: 0px 30px 60px 30px;
+    width: 100%;
+    height: auto;
+   
+    
+}
+.part_row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 2em;
+
+}
+
+
+.partner2{
+   
+ 
+   margin: 0px 60px 0px 60px;
+    height: auto;
+    width: 100%;
+}
+.part_rows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
 
 .row {
     position: relative;
@@ -491,7 +620,7 @@ header * {
     flex-wrap: wrap;
     background-color: var(--white);
     position: absolute;
-    top: -200px;
+    margin-bottom: -200px;
     padding: 60px 50px;
     box-shadow: 2px 10px 50px rgba(158, 158, 158, 0.25);
     border-radius: 10px;
@@ -536,16 +665,18 @@ header * {
 .email_form {
     display: flex;
     margin-top: 20px;
+    width: 84%;
+    position: relative;
 }
 
 .inbox_input {
-    min-width: 700px;
+    width: 100%;
+    max-width: 720px;
     line-height: 40px;
     height: 40px;
     border: none;
     border-bottom: solid 1px var(--blue);
     outline: none;
-    back
 }
 
 
@@ -553,8 +684,8 @@ header * {
 
 .newsletter-cont {
     position: relative;
-    height: 500px;
-    padding-bottom: 100px;
+   
+    padding-bottom: 200px;
 }
 
 
@@ -565,7 +696,7 @@ header * {
 
 .btn-send {
 
-    position: relative;
+    position: absolute;
     background: var(--color-grad-270);
     color: #ffffff;
     outline: none;
@@ -577,7 +708,8 @@ header * {
     cursor: pointer;
     z-index: 9;
     transition: all 0.7s ease 0s;
-    right: 15px;
+    right: -10px;
+
 }
 
 /* Newsletter: end */

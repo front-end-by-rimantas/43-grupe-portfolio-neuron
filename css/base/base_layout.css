@@ -141,6 +141,12 @@ p {
 p+p {
     margin: 26px 0 0 0;
 }
+p {
+    transition: all 0.7s ease 0s;
+}
+h3 {
+    transition: all 0.5s ease 0s;
+}
 
 .hidden {
     display: none !important;
