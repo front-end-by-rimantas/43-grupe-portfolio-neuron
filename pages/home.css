@@ -233,6 +233,36 @@ header * {
 /* Hero styles: end */
 
 /* Power Your Creativity: start */
+.power {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* .power .row>.col-md-6 {
+    margin: 0;
+} 
+.power .col-lg-7,
+.power .col-lg-5 {
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+
+.power > .row .col-md-6 + .col-md-6{
+    margin: 100px 0 0 40px;
+} */
+.power .power-box + .power-box {
+    margin-top: 40px;
+}
+.power .title {
+    margin-top: 0;
+}
+.power > .row {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 0 30px; */
+}
 
 .power-box {
     display: flex;
@@ -244,7 +274,7 @@ header * {
     min-height: 255px;
     background-color: #fff;
     box-shadow: 2px 10px 50px rgba(158, 158, 158, 0.25);
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     border-radius: 10px;
 }
 .power-box * {
@@ -300,7 +330,18 @@ header * {
     margin-bottom: 20px;
 }
 
-
+@media (max-width: 992px) {
+    .power > .row .col-md-6 + .col-md-6{
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .power > .row .col-md-6 + .col-md-6{
+        margin: 0 0 0 30px;
+    }
+    .power .power-box + .power-box {
+        margin-top: 30px;
+    }
+}
 /* Power Your Creativity: end */
 
 /* We Create The Most Realistic Artificial Intelligence: start */

@@ -79,7 +79,7 @@ main {
 .title {
     text-transform: capitalize;
     color: var(--grey-dark);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     text-transform: capitalize;
     z-index: 0;
