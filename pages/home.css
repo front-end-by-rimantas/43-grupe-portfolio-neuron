@@ -495,24 +495,70 @@ header * {
 /* Our Latest Project: end */
 
 /* Newsletter: start */
+
+.part_img{
+    width: 100%;
+}
 .part_rows{
+    padding: top 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .partners_bgr{  
 background-repeat: no-repeat;
 background-size: cover;
-background-image: url(../img/partners/partner-bg.jpg);}
-.partners{
+background-image: url(../img/partners/partner-bg.jpg);
+padding-bottom: 100px;
+padding-top: 300px;
+
+
+}
+.partners .col-12{
+    margin: 0;
+}
+.part_row1{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    line-height: 2em;
+    
+   
 }
-.newsletter-cont.container {
-    margin-top: 100px;
+.partner1{
+    
+   margin: 0px 30px 60px 30px;
+    width: 100%;
+    height: auto;
+   
+    
 }
+.part_row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 2em;
+
+}
+
+
+.partner2{
+   
+ 
+   margin: 0px 60px 0px 60px;
+    height: auto;
+    width: 100%;
+}
+.part_rows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
 
 .row {
     position: relative;
@@ -528,7 +574,7 @@ background-image: url(../img/partners/partner-bg.jpg);}
     flex-wrap: wrap;
     background-color: var(--white);
     position: absolute;
-    top: -200px;
+    margin-bottom: -200px;
     padding: 60px 50px;
     box-shadow: 2px 10px 50px rgba(158, 158, 158, 0.25);
     border-radius: 10px;
@@ -592,8 +638,8 @@ background-image: url(../img/partners/partner-bg.jpg);}
 
 .newsletter-cont {
     position: relative;
-    height: 500px;
-    padding-bottom: 100px;
+   
+    padding-bottom: 200px;
 }
 
 
