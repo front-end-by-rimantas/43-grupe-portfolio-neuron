@@ -411,14 +411,11 @@ header * {
 }
 
 
-
 .box {
-
     background-color: var(--white);
     padding: 3rem 2rem 3rem 2rem;
     border-radius: 10px;
     box-shadow: 10px 5px 5px #e9eaf0;
-
     display: grid;
     width: 100%;
     height: 100%;
@@ -450,11 +447,31 @@ header * {
     font-weight: 600;
     font-size: 1.25em;
     margin-bottom: 1em;
+    color: black;
 }
+
 
 .box-paragraph {
     line-height: 1.75em;
 }
+
+.box:hover {
+    background: var(--color-grad-41);
+}
+
+.box:hover .box-title {
+    color:white;
+}
+
+.box:hover .box-paragraph {
+    color:white;
+} 
+
+.box:hover .box_icon  i:before{
+    color: white;
+    background-image: unset;
+}
+
 
 @media (max-width:1248px) {
     .box-container {
@@ -517,6 +534,21 @@ header * {
 /* Our Latest Project: end */
 
 /* Newsletter: start */
+.part_rows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partners_bgr{  
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(../img/partners/partner-bg.jpg);}
+.partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .newsletter-cont.container {
     margin-top: 100px;
 }
@@ -592,11 +624,6 @@ header * {
     border: none;
     border-bottom: solid 1px var(--blue);
     outline: none;
-<<<<<<< Updated upstream
-    /* back */
-=======
-
->>>>>>> Stashed changes
 }
 
 
