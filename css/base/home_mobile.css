@@ -2,6 +2,19 @@
 /* header start */
 
 
+@media (max-width: 1500px) {
+    .newsletter .btn-send {
+
+      
+        right: -20px;
+    }
+   .newsletter-cont .newsletter .title{
+width: 60%;
+    }
+
+
+
+
 @media (max-width: 991px) {
     .header .header_nav {
         display: none;
@@ -10,10 +23,15 @@
     .header .nav_n_search .head_menu {
         display: inline-block;
     }
+.newsletter-cont .row .newsletter{
+    position: static;
+}
+.row .newsletter .inbox_logo{
+    font-size: 150px;
+}
 
 
-
-
+}
 
     .hero_row .hero_title {
         flex-wrap: wrap;
@@ -21,7 +39,10 @@
         line-height: 40px;
 
     }
-
+.newsletter-cont .newsletter .title{
+width: 100%;
+font-size: 30px;
+    }
 
 
 }
@@ -62,8 +83,36 @@
         font-weight: 400;
     }
 
+    .newsletter-cont .newsletter *  {
+        margin: 5px;
+        
+        
+            }
+            
+
+    .newsletter-cont .row .newsletter .email_form *  {
+        margin: 0px;
+        
+    }
+    .newsletter-cont .newsletter_form  {
+        width: 100%;
+        
+        
+            }
+
+    .newsletter-cont .newsletter .email_form  {
+        width: 90%;
+        
+        
+            }
 
 
+            
 }
 
+@media(max-width: 800px){
+   .newsletter-cont .row .newsletter {
+        padding: 10px;
+    }
+}
 /* header finish */
