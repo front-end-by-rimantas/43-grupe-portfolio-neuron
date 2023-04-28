@@ -388,6 +388,10 @@ header * {
     margin: 0 0 26px;
 }
 
+.btn + .btn-play {
+    margin-left: 2em;
+}
+
 
 
 
