@@ -49,10 +49,37 @@ header * {
 }
 
 .header_rows {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    align-items: center;
+
 }
+
+.container.head_row_sticky {
+    transition: all 2s;
+    top: 0;
+    position: fixed;
+    background: var(--color-grad-270);
+    z-index: 999;
+    padding-bottom: 20px;
+    animation: hederis 2s;
+}
+
+@keyframes hederis {
+    0% {
+        transform: translateY(-100px);
+    }
+
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+
 
 
 
@@ -123,17 +150,9 @@ header * {
     background: var(--blue);
 }
 
-/* .head_row_sticky {
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    right: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-
-} */
+.row.head_row2 {
+    position: relative;
+}
 
 
 
