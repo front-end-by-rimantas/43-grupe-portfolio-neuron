@@ -177,6 +177,9 @@ header * {
 
 .head_n_hero {
     height: 100vh;
+    background-image: url(../img/slider/h1-s1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero_img {
@@ -250,13 +253,15 @@ header * {
 .power > .row .col-md-6 + .col-md-6{
     margin: 100px 0 0 40px;
 } */
-.power .power-box + .power-box {
+.power .power-box+.power-box {
     margin-top: 40px;
 }
+
 .power .title {
     margin-top: 0;
 }
-.power > .row {
+
+.power>.row {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -277,6 +282,7 @@ header * {
     margin-bottom: 0px;
     border-radius: 10px;
 }
+
 .power-box * {
     z-index: 1;
 }
@@ -292,30 +298,33 @@ header * {
     border-radius: 5px;
     z-index: 0;
 }
-.power-box:hover::before{
+
+.power-box:hover::before {
     opacity: 1;
 }
 
 .power-box i {
-        margin: 0;
-        font-size: 60px;
-        line-height: 1;
-        background-clip: text;
-        opacity:1;
-        -webkit-background-clip: text;
-        color: rgba(0, 0, 0, 0);
-        background-image: var(--color-grad-41);
-        transition: all 0.7s ease 0s;
+    margin: 0;
+    font-size: 60px;
+    line-height: 1;
+    background-clip: text;
+    opacity: 1;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    background-image: var(--color-grad-41);
+    transition: all 0.7s ease 0s;
 }
+
 .power-box:hover i {
-    opacity:1;
+    opacity: 1;
     color: #fff;
 }
 
 .power-box:hover p,
-.power-box:hover h3{
+.power-box:hover h3 {
     color: #fff;
 }
+
 .power-box h3 {
     margin: 0;
 }
@@ -331,17 +340,20 @@ header * {
 }
 
 @media (max-width: 992px) {
-    .power > .row .col-md-6 + .col-md-6{
+    .power>.row .col-md-6+.col-md-6 {
         margin-top: 0px;
         margin-bottom: 35px;
     }
-    .power > .row .col-md-6 + .col-md-6{
+
+    .power>.row .col-md-6+.col-md-6 {
         margin: 0 0 0 30px;
     }
-    .power .power-box + .power-box {
+
+    .power .power-box+.power-box {
         margin-top: 30px;
     }
 }
+
 /* Power Your Creativity: end */
 
 /* We Create The Most Realistic Artificial Intelligence: start */
@@ -508,14 +520,14 @@ header * {
 }
 
 .box:hover .box-title {
-    color:white;
+    color: white;
 }
 
 .box:hover .box-paragraph {
-    color:white;
-} 
+    color: white;
+}
 
-.box:hover .box_icon  i:before{
+.box:hover .box_icon i:before {
     color: white;
     background-image: unset;
 }
@@ -587,17 +599,17 @@ header * {
         align-items: center;
         padding: 1em 0em 2em 0em;
     }
-    
+
 }
 
 @media (min-width:362px) and (max-width:767px) {
 
-        .project-img-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 1em 0em 2em 0em;
+    .project-img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0em 2em 0em;
     }
 }
 
@@ -606,63 +618,70 @@ header * {
 
 /* Newsletter: start */
 
-.part_img{
+.part_img {
     width: 100%;
 }
-.part_rows{
+
+.part_rows {
     padding: top 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
-.partners_bgr{  
-background-repeat: no-repeat;
-background-size: cover;
-background-image: url(../img/partners/partner-bg.jpg);
-padding-bottom: 100px;
-padding-top: 300px;
+
+.partners_bgr {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/partners/partner-bg.jpg);
+    padding-bottom: 100px;
+    padding-top: 300px;
 
 
 }
-.partners .col-12{
+
+.partners .col-12 {
     margin: 0;
 }
-.part_row1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    line-height: 2em;
-    
-   
-}
-.partner1{
-    
-   margin: 0px 30px 60px 30px;
-    width: 100%;
-    height: auto;
-   
-    
-}
-.part_row2{
+
+.part_row1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     line-height: 2em;
 
+
+}
+
+.partner1 {
+
+    margin: 0px 30px 60px 30px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.part_row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 2em;
+
 }
 
 
-.partner2{
-   
- 
-   margin: 0px 60px 0px 60px;
+.partner2 {
+
+
+    margin: 0px 60px 0px 60px;
     height: auto;
     width: 100%;
 }
-.part_rows{
+
+.part_rows {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -748,7 +767,7 @@ padding-top: 300px;
 
 .newsletter-cont {
     position: relative;
-   
+
     padding-bottom: 200px;
 }
 
