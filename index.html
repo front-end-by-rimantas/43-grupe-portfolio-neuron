@@ -17,24 +17,7 @@
 </head>
 
 <body>
-    <script>
-        const meniu = document.querySelector("#meniukas");
 
-
-
-        function sticky_nav() {
-
-            if (window.scrollY < 150) {
-                meniukas.classList.remove('head_row_sticky');
-                document.body.style.paddingTop = '0';
-            } else {
-                meniukas.classList.add('head_row_sticky');
-                document.body.style.paddingTop = `${meniukas}px`;
-            }
-        }
-        window.addEventListener('scroll', sticky_nav);
-
-    </script>
     <!-- Header: start -->
     <section class="head_n_hero bgr-grad-left">
 
@@ -96,6 +79,7 @@
             </div>
 
         </header>
+        <script src="./js/components/sticky_header.js"></script>
         <!-- Header: end -->
         <!-- Hero: start -->
         <section class="container bgr-grad-left hero">

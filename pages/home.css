@@ -57,13 +57,12 @@ header * {
 }
 
 .container.head_row_sticky {
-    transition: all 2s;
+
     top: 0;
     position: fixed;
     background: var(--color-grad-270);
     z-index: 999;
-    padding-bottom: 20px;
-    animation: hederis 2s;
+    animation: hederis 0.4s;
 }
 
 @keyframes hederis {
@@ -73,6 +72,7 @@ header * {
 
 
     100% {
+
         transform: translateY(0px);
     }
 }
@@ -82,6 +82,10 @@ header * {
 
 
 
+#meniukas {
+    height: max-content;
+    padding-bottom: 20px;
+}
 
 .header .head_contacts {
     display: flex;
