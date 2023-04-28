@@ -947,6 +947,42 @@ header * {
     margin-bottom: 30px;
 }
 
+.blog-box {
+    background-color: var(--white);
+}
+
+.blog-box > img {
+    width: 100%;
+}
+
+.blog-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.blog-text > h3 {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+.blog-text > a {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
