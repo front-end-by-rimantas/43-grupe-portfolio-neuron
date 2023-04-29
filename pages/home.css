@@ -62,7 +62,7 @@ header * {
     position: fixed;
     background: var(--color-grad-270);
     z-index: 999;
-    animation: hederis 0.4s;
+    animation: hederis 0.7s;
 }
 
 @keyframes hederis {
