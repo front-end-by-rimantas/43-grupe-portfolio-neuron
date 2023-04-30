@@ -769,6 +769,7 @@ header * {
 
 .newsletter .inbox_logo {
     font-size: 235px;
+    background-clip: text;
     -webkit-background-clip: text;
     color: rgba(255, 255, 255, 0);
     background-image: var(--color-grad-41);
@@ -1029,6 +1030,7 @@ header * {
     margin-bottom: 1em;
 }
 
+
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
@@ -1037,7 +1039,7 @@ header * {
     box-shadow: 2px 10px 50px rgba(158, 158, 158, 0.25);
 }
 .contact_us_logos{
-    
+    background-clip: text;
     -webkit-background-clip: text;
     color: rgba(255, 255, 255, 0);
     background-image: var(--color-grad-41);
