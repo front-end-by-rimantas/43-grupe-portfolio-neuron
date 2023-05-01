@@ -39,9 +39,18 @@ header * {
 
 .head_social {
     text-align: center;
+   
 
 }
 
+.head_social:hover *{
+    
+    transition: 0.8s;
+    transform: rotate(360deg);
+    
+ 
+   
+}
 
 
 .head_n_hero .container {
@@ -62,7 +71,7 @@ header * {
     position: fixed;
     background: var(--color-grad-270);
     z-index: 999;
-    animation: hederis 0.4s;
+    animation: hederis 0.7s;
 }
 
 @keyframes hederis {
@@ -131,6 +140,16 @@ header * {
 .common_element {
     padding-right: 17px;
 }
+.header_nav .common_element{
+    height: max-content;
+}
+.header_nav .common_element:hover{
+    transition: all 0.2s;
+    
+    border-bottom: solid 5px white;
+    
+
+}
 
 .cart_search {
     display: flex;
@@ -164,7 +183,7 @@ header * {
 
 /* Hero styles: start */
 .hero_row {
-    padding-top: 200px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -750,6 +769,7 @@ header * {
 
 .newsletter .inbox_logo {
     font-size: 235px;
+    background-clip: text;
     -webkit-background-clip: text;
     color: rgba(255, 255, 255, 0);
     background-image: var(--color-grad-41);
@@ -1010,9 +1030,21 @@ header * {
     margin-bottom: 1em;
 }
 
+
 /* Recent Blog Post: end */
 
 /* Contact With Us: start */
+.contact_us{
+    border-radius: 5px;
+    box-shadow: 2px 10px 50px rgba(158, 158, 158, 0.25);
+}
+.contact_us_logos{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    background-image: var(--color-grad-41);
+
+}
 .form-bgr {
     background-image: url('../img/contacts/contact-bg.jpg');
     background-size: cover;
