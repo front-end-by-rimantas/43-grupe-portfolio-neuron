@@ -1,0 +1,16 @@
+:root {
+    --color-: #f34236;
+}
+
+body,
+body * {
+   text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
